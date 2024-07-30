@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.antikmodz.xyz/King/ by HTTrack Website Copier/3.x [XR&CO'2017], Tue, 30 Jul 2024 00:15:20 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WARP+ Script</title>
+    <style>
+        /* Your existing CSS styles */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #000428 0%, #004e92 100%);
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            position: relative; /* Ensure raindrops and butterflies are positioned relative to the body */
+        }
+        .container {
+            position: relative;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            padding: 20px;
+            max-width: 400px;
+            width: 100%;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+            animation: fadeIn 1s ease-out;
+            z-index: 2;
+        }
+        .container::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            background: inherit;
+            filter: blur(10px);
+            z-index: -1;
+        }
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 20px;
+            font-size: 24px;
+            animation: rgbAnimation 3s infinite alternate;
+        }
+        @keyframes rgbAnimation {
+            0% { color: #ff0000; } /* Red */
+            25% { color: #00ff00; } /* Green */
+            50% { color: #0000ff; } /* Blue */
+            75% { color: #ffff00; } /* Yellow */
+            100% { color: #ff00ff; } /* Magenta */
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #ff9d2f;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        input[type="text"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            background-color: #222;
+            color: #fff;
+        }
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ff9d2f;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        button:hover {
+            background-color: #ff6126;
+            transform: scale(1.05);
+        }
+        button:active {
+            transform: scale(0.95);
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        .raindrop {
+            position: absolute;
+            width: 2px;
+            height: 10px;
+            background: rgba(255, 255, 255, 0.7);
+            opacity: 0;
+            animation: fall linear;
+        }
+        @keyframes fall {
+            from {
+                transform: translateY(-100px);
+                opacity: 1;
+            }
+            to {
+                transform: translateY(100vh);
+                opacity: 0;
+            }
+        }
+        .butterfly {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-image: url('butterfly.html'); /* Add your butterfly image here */
+            background-size: cover;
+            background-repeat: no-repeat;
+            animation: flutter 10s infinite;
+        }
+        @keyframes flutter {
+            0% {
+                transform: translateY(-100px) rotate(0deg);
+            }
+            50% {
+                transform: translateY(calc(100vh + 100px)) rotate(360deg);
+            }
+            100% {
+                transform: translateY(-100px) rotate(720deg);
+            }
+        }
+        /* Add this to your existing CSS */
+        @keyframes rgbButtonAnimation {
+            0% { color: #ff0000; } /* Red */
+            25% { color: #00ff00; } /* Green */
+            50% { color: #0000ff; } /* Blue */
+            75% { color: #ffff00; } /* Yellow */
+            100% { color: #ff00ff; } /* Magenta */
+        }
+        .rgb-button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ff0000;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            animation: rgbButtonAnimation 3s infinite alternate;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            margin-top: 10px; /* Add some margin to separate buttons */
+        }
+        .rgb-button:hover {
+            background-color: #ff6126;
+            transform: scale(1.05);
+        }
+        .rgb-button:active {
+            transform: scale(0.95);
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column; /* Change to column layout */
+            align-items: center; /* Center the buttons horizontally */
+            margin-top: 20px; /* Add some space above the buttons */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>1.1.1.1 VPN HACK VIP</h1>
+        
+        <div class="logo">
+            <img src="logol.png" alt="Logo"> <!-- Add your logo source here -->
+        </div>
+        <h1>ML IKBAL Official</h1>
+        <form action="../../external.html?link=https://www.antikmodz.xyz/King/server_Brake.php" method="post">
+            <label for="warp_id">Enter your WARP+ ID:</label>
+            <input type="text" id="warp_id" name="warp_id" required>
+            <button type="submit">🟠 SUBMIT 🟠</button>
+        </form>
+        <div class="button-container">
+            <button class="rgb-button" onclick="window.location.href='../../external.html?link=https://t.me/MLikbalOfficial71';">🔰 Join Telegram 🔰</button>
+        </div>
+    </div>
+
+    <script>
+        function createRaindrop() {
+            const raindrop = document.createElement('div');
+            raindrop.className = 'raindrop';
+            raindrop.style.left = `${Math.random() * window.innerWidth}px`;
+            raindrop.style.animationDuration = `${Math.random() * 2 + 2}s`;
+            raindrop.style.opacity = Math.random();
+            document.body.appendChild(raindrop);
+
+            raindrop.addEventListener('animationend', () => {
+                raindrop.remove();
+            });
+        }
+
+        function generateRaindrops() {
+            for (let i = 0; i < 100; i++) {
+                createRaindrop();
+            }
+        }
+
+        generateRaindrops();
+        setInterval(generateRaindrops, 2000);
+
+        function createButterfly() {
+            const butterfly = document.createElement('div');
+            butterfly.className = 'butterfly';
+            butterfly.style.left = `${Math.random() * window.innerWidth}px`;
+            butterfly.style.animationDuration = `${Math.random() * 10 + 10}s`;
+            document.body.appendChild(butterfly);
+
+            butterfly.addEventListener('animationend', () => {
+                butterfly.remove();
+            });
+        }
+
+        function generateButterflies() {
+            for (let i = 0; i < 20; i++) {
+                createButterfly();
+            }
+        }
+
+        generateButterflies();
+        setInterval(generateButterflies, 5000);
+
+        function thunder() {
+            const thunderFlash = Math.random() * 10 < 1;
+            if (thunderFlash) {
+                document.body.style.backgroundColor = '#ffffff';
+                setTimeout(() => {
+                    document.body.style.backgroundColor = '#000428';
+                }, 100);
+            }
+        }
+
+        setInterval(thunder, 2000);
+    </script>
+</body>
+
+<!-- Mirrored from www.antikmodz.xyz/King/ by HTTrack Website Copier/3.x [XR&CO'2017], Tue, 30 Jul 2024 00:15:22 GMT -->
+</html>
